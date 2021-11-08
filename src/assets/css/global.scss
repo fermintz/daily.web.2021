@@ -1,42 +1,90 @@
-html{
+#app{
   font-size:14px;
   font-family:'SCDream';
-  letter-spacing:-0.7px;
   font-weight:400;
   word-break: keep-all;  
+  overflow:hidden;
+
 }
 
-div,dl,dt,dd,h1,h2,h3,h4,h5,h6,ul,li,span,strong,p,label{
-  font-family:'SCDream'
+html::-webkit-scrollbar{
+  scroll-behavior: smooth;
 }
 
-.v-tabs:not(.v-tabs--vertical).v-tabs--right > .v-slide-group--is-overflowing.v-tabs-bar--is-mobile:not(.v-slide-group--has-affixes) .v-slide-group__next{
-  display:none;
+h1,h2,h3,h4,h5,h6,strong,dt{
+  font-weight:400;
 }
 
-ul,li{list-style:none;margin:0px;padding:0px;}
-dl,dt,dd{margin:0px;padding:0px;}
-p{margin:0;padding:0}
-
-.v-btn{letter-spacing:0px;}
-
-.wrap{
-  position: relative;
-  width:100%;
-  overflow-x:hidden;
+ul, ol, ul li, ol li, p{
+  padding:0px;
+  margin:0px;
+  list-style: none;
 }
 
 .contents{
-  min-height:1000px;
+  padding:0 50px;
+  padding-top:90px;
+  padding-bottom:70px;
 }
 
 .inner{
-  width:1264px;
-  margin:0 auto
+  max-width:1200px;
+  margin:0px auto;
 }
 
-@media screen and(max-width:1264px){
-  .inner{
-    width:100%;
+
+.v-btn{
+  padding:0px;
+  margin:0px;
+}
+
+.theme--light.v-btn--active:hover::before, .theme--light.v-btn--active::before{
+  opacity:0;
+}
+.theme--light.v-btn:hover::before{
+  opacity:0;
+}
+
+
+/* 스크롤 애니메이션 */
+.sa{
+  opacity: 0;
+  transition: all .6s ease;
+}
+
+.sa-up{
+  transform:translate(0, 100px);
+}
+.sa-down{
+  transform:translate(0, -100px);
+}
+.sa-left{
+  transform:translate(-100px, 0);
+}
+.sa-left-bar{
+  transform:translate(-100%, 0);
+}
+.sa-right{
+  transform:translate(100px, 0);
+}
+.sa-rotate{
+  transform:rotate(10deg);
+}
+
+.sa.sa-right.car{
+  opacity: 1;
+  transition: all 3s ease;
+}
+
+.sa.show{
+  opacity:1;
+  transform:none;
+}
+
+
+@media screen and(max-width:1200px) {
+  .contents{
+    padding:90px 30px 90px 30px
   }
+
 }
