@@ -24,6 +24,7 @@ export default {
   data: () => ({
     //
   }),
+
   methods:{
     drawer(value){
       this.$refs.drawer.drawerHandle(value)

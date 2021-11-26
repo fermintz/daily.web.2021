@@ -11,7 +11,7 @@
                 <span class="text3 sa sa-up" data-sa-delay="600" data-sa-margin="0">데일리세탁 앱으로<br>간편하게 세탁을 예약하세요</span>
               </div>
               <div class="download">
-                <div class="btn sa sa-up" v-ripple data-sa-delay="800" data-sa-margin="0">
+                <div class="btn sa sa-up" v-ripple data-sa-delay="800" data-sa-margin="0" @click="openPage('https://apps.apple.com/kr/app/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%9B%8C%EC%8B%9C/id1495137616')">
                   <div class="icon">
                     <v-icon>mdi-apple</v-icon>
                   </div>
@@ -21,7 +21,7 @@
                   </div>
                 </div>
 
-                <div class="btn sa sa-up" v-ripple data-sa-delay="1000" data-sa-margin="0">
+                <div class="btn sa sa-up" v-ripple data-sa-delay="1000" data-sa-margin="0" @click="openPage('https://play.google.com/store/apps/details?id=kr.co.dailywash')">
                   <div class="icon">
                     <v-icon>mdi-google-play</v-icon>
                   </div>
@@ -108,14 +108,16 @@
           <!-- <span>원하는 날짜를 선택해 세탁을 예약해보세요<br />해당날짜에 기사님이 방문합니다</span> -->
         </div>
         <div class="sec_cont">
-          <div class="phone sa sa-rotate" data-sa-delay="500">
+          <div class="phone sa sa-rotate" >
             <div class="phone_top"></div>
             <div class="phone_inner">
-
+              <img src="@/assets/img/daily_video.gif"/>
             </div>
           </div>
-          <div class="bg sa sa-up" >
-            <span class="pattern"></span>
+
+          
+          <div class="bg">
+            <div class="icon_bg"></div>
           </div>
         </div>
       </div> <!-- section-3 -->
@@ -127,21 +129,21 @@
               <div class="item">
                 <dl>
                   <dt>합리적인 가격</dt>
-                  <dd>데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들에게 세탁을 맏겨 깨끗한 세탁을 완성합니다</dd>
+                  <dd>지역 협력업체와 집에서 좋은 가성비로 깔끔하고 깨끗한 세탁 서비스를 받으실 수 있습니다.</dd>
                 </dl>
                 <div class="image_box">
-                  500x500px
+                  <img src="@/assets/img/main_01.png">
                 </div>
               </div>
             </v-col>
             <v-col cols="12"  md="6" class="sa sa-up">
               <div class="item">
                 <dl>
-                  <dt>단독클리닝 세탁서비스</dt>
-                  <dd>데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들에게 세탁을 맏겨 깨끗한 세탁을 완성합니다</dd>
+                  <dt>전문 세탁 이용 서비스</dt>
+                  <dd>데일리세탁의 꼼꼼한 절차를 선정된 10년 이상의 경력을 보유한 전문가가 고퀄리티의 세탁 서비스를 완성합니다.</dd>
                 </dl>
                 <div class="image_box">
-                  500x500px
+                  <img src="@/assets/img/main_02.png">
                 </div>
               </div>
             </v-col>
@@ -149,11 +151,11 @@
               <div class="item">
                 
                 <dl>
-                  <dt>셀프빨래방 대행서비스</dt>
-                  <dd>데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들에게 세탁을 맏겨 깨끗한 세탁을 완성합니다</dd>
+                  <dt>셀프빨래방 대행 서비스</dt>
+                  <dd>셀프빨래방에서 기다리시는 시간을 줄일 수 있도록 데일리세탁에서 엄선된 셀프빨래방 대행 서비스를 제공합니다.</dd>
                 </dl>
                 <div class="image_box">
-                  500x500px
+                  <img src="@/assets/img/main_03.png">
                 </div>
               </div>
             </v-col>
@@ -161,10 +163,10 @@
               <div class="item">
                 <dl>
                   <dt>새벽배송</dt>
-                  <dd>데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들에게 세탁을 맏겨 깨끗한 세탁을 완성합니다</dd>
+                  <dd>아침에 일어나서 바로 즉시 깨끗한 세탁물을 받을 수 있는 새벽 배송을 진행합니다.</dd>
                 </dl>
                 <div class="image_box">
-                  500x500px
+                  <img src="@/assets/img/main_04.png">
                 </div>
               </div>
             </v-col>
@@ -172,10 +174,10 @@
               <div class="item">
                 <dl>
                   <dt>명품케어</dt>
-                  <dd>데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들에게 세탁을 맏겨 깨끗한 세탁을 완성합니다</dd>
+                  <dd>고가의 브랜드 제품의 경우에는 프리미엄 장인들의 꼼꼼한 세탁으로 진행하여 원단 손상은 최소화 깨끗함은 최대화로 완성됩니다.</dd>
                 </dl>
                 <div class="image_box">
-                  500x500px
+                  <img src="@/assets/img/main_05.png">
                 </div>
               </div>
             </v-col>
@@ -188,12 +190,13 @@
           <div class="sec_title sa sa-up">          
             <strong>세탁으로 부터 찾는 나의 시간, <br/>이제 <b>데일리세탁</b>에 맏기세요</strong>
           </div>
-        </div>
-        <div class="sec_cont">
-          <div class="sec-5-img">
-    
+          <div class="sec_cont">
+            <div class="sec-5-img">
+              <img src="@/assets/img/main_06.png"/> 
+            </div>
           </div>
         </div>
+        
       </div>
   </div>
 </template>
@@ -211,6 +214,9 @@ export default {
     window.addEventListener('scroll',this.saFunc)
   },
   methods:{
+    openPage(url){
+      window.open(url)
+    },
     saFunc(){
       const saDefaultMargin = 300;
       let saTriggerMargin = 0;
@@ -365,7 +371,7 @@ export default {
       }
       .city-2{
         background: url('/img/city2.png') repeat-x;
-        animation: move 80s infinite linear;
+        animation: move 70s infinite linear;
         background-position-y:70%;
         z-index:2;
         opacity: 0.4;
@@ -501,28 +507,35 @@ export default {
       position: relative;
       width:320px;
       height:640px;
-      background:#fff;
-      border-radius:50px;
-      z-index:2;
+      background:#e2e2e2;
+      border-radius:45px;
+      z-index:3;
       padding:10px;
       overflow:hidden;
-      box-shadow: 10px 10px 30px rgba(0,0,0,0.15);
+      box-shadow: 10px 10px 50px rgba(0,0,0,0.1);
 
       .phone_top{
         position: absolute;
-        top:-20px;
-        left:50%;
+        top:20px;
+        right:30px;
         margin-left:-70px;
-        width:140px;
-        height:50px;
+        width:20px;
+        height:20px;
         border-radius:15px;
-        background:#fff;
+        background:#e2e2e2;
         z-index:2;
       }
       .phone_inner{
-        background:#f2f2f2;
+        position: relative;
+        overflow:hidden;
         height:100%;
-        border-radius:45px;
+        border-radius:35px;
+        z-index:1;
+ 
+        img{
+          display:block;
+          width:100%;
+        }
       }
     }
     .bg{
@@ -533,6 +546,15 @@ export default {
       border-radius:30px;
       z-index:1;
       overflow:hidden;
+    }
+    .icon_bg{
+      position: absolute;
+      width:100%;
+      height:100%;
+      z-index:2;
+      opacity:1;
+      background: url('/img/wave.png') repeat ;
+
     }
   }
 }
@@ -563,7 +585,7 @@ export default {
       background:#f8f8f8;
       img{
         position: absolute;
-        height:150%;
+        width:100%;
       }
     }
     .image_box:after{
@@ -587,7 +609,6 @@ export default {
 }
 
 .section-5{
-
   .sec_title{
     text-align:left;
   }
@@ -595,14 +616,18 @@ export default {
     margin-top:50px;
   }
   .sec-5-img{
+    position: relative;
     display:flex;
     align-items: center;
     justify-content: center;
-    background:#f2f2f2;
     border-radius:30px;
     height:100%;
     overflow:hidden;
-    background:url('/img/main_05_img.jpg') no-repeat center / 100%
+    img{
+      position: absolute;
+      width:100%;
+      display:block;
+    }
   }
   .sec-5-img:after{
     content:'';
@@ -661,7 +686,7 @@ export default {
   .section{
     border-radius:0px;
     margin-top:120px;
-    padding:0 30px;
+    padding:0 20px;
 
     .sec_title{
       text-align:center;
@@ -707,10 +732,10 @@ export default {
         height:520px;
         border-radius:40px;
         .phone_top{
-          top:-15px;
-          margin-left:-60px;
-          width:120px;
-          height:40px;
+          top:18px;
+          right:30px;
+          width:14px;
+          height:14px;
         }
         .phone_inner{
           border-radius:35px;
@@ -733,39 +758,7 @@ export default {
     .col-12:nth-child(odd){
       margin-top:0;
     }
-
-    .item{
-      .image_box{
-        position: relative;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-        border-radius:15px;
-        overflow:hidden;
-        background:#f8f8f8;
-        img{
-          position: absolute;
-          height:150%;
-        }
-      }
-      .image_box:after{
-        content:'';
-        display:block;
-        padding-bottom:100%
-      }
-      dl{
-        margin-bottom:30px;
-        dt{
-          font-size:24px;
-          font-weight:500
-        }
-        dd{
-          font-size:16px;
-          margin-top:10px;
-          color:#898989;
-        }
-      }    
-    }
   }
+
 }
 </style>

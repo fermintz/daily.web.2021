@@ -23,17 +23,17 @@
       </ul>
 
       <div class="sns">
-        <div class="sns_btn" v-ripple>
-          <v-icon>mdi-facebook</v-icon>
+        <!-- <div class="sns_btn" v-ripple>
+          <img src="@/assets/img/facebook.png">
           <span>페이스북</span>
-        </div>
-        <div class="sns_btn" v-ripple>
-          <v-icon>mdi-facebook</v-icon>
-          <span>카카오톡</span>
-        </div>
-        <div class="sns_btn" v-ripple>
-          <v-icon>mdi-facebook</v-icon>
+        </div> -->
+        <div class="sns_btn" v-ripple @click="openPage('https://blog.naver.com/dailywash_op')">
+          <img src="@/assets/img/blog.png">
           <span>블로그</span>
+        </div>
+        <div class="sns_btn" v-ripple @click="openPage('http://pf.kakao.com/_GAFDxb/chat')">
+          <img src="@/assets/img/kakao.png">
+          <span>카카오톡</span>
         </div>
       </div>
 
@@ -49,6 +49,9 @@ export default {
     }
   },
   methods:{
+    openPage(url){
+      window.open(url)
+    },
     drawerHandle(value){
       this.drawer = value
     }
@@ -81,18 +84,19 @@ export default {
       flex:1;
       display:flex;
       height:40px;
-      margin-bottom:10px;
+      margin-bottom:5px;
       align-items: center;
-      background:#f2f2f2;
       border-radius:20px;
       padding:0 10px;
 
-      .v-icon{
-        font-size:28px;
+      img{
+        display:block;
+        height:24px;
       }
+
       span{
         font-size:11px;
-        margin-left:5px
+        margin-left:10px
       }
     }
   }

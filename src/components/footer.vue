@@ -21,9 +21,9 @@
       </div>
       
       <div class="btns">
-        <v-btn text>개인정보 취급방침</v-btn>
-        <v-btn text>서비스 이용약관</v-btn>
-        <v-btn text>서비스 보상정책</v-btn>
+        <v-btn text @click="$router.push('/terms/person')">개인정보 취급방침</v-btn>
+        <v-btn text @click="$router.push('/terms/service')">서비스 이용약관</v-btn>
+        <v-btn text @click="$router.push('/terms/refound')">서비스 보상정책</v-btn>
       </div>
     </div>
   </div>

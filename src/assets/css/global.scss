@@ -1,14 +1,13 @@
 #app{
   font-size:14px;
-  font-family:'SCDream';
+  font-family:'Roboto','SCDream';
   font-weight:400;
   word-break: keep-all;  
   overflow:hidden;
-
 }
 
-html::-webkit-scrollbar{
-  scroll-behavior: smooth;
+html{
+ 
 }
 
 h1,h2,h3,h4,h5,h6,strong,dt{
@@ -84,7 +83,7 @@ ul, ol, ul li, ol li, p{
 
 @media screen and(max-width:1200px) {
   .contents{
-    padding:90px 30px 90px 30px
+    padding:90px 20px 90px 20px
   }
 
 }
