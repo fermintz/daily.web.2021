@@ -325,6 +325,7 @@
             진행됩니다.<br />
             평균 영업일 2~4일정도 소요되오니 조금만 참고 기다려주세요!
           </p>
+          test
         </div>
 
         <div class="sec-6-image sa">
@@ -357,7 +358,7 @@
       <div class="inner">
         <v-row>
           <v-col cols="12" md="7">
-            <div class="customer-info">
+            <div class="customer-info">~~
               <div class="text">
                 이용방법을 잘 모르시겠다면,<br />언제든 연락주세요
               </div>
