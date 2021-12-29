@@ -6,7 +6,7 @@
           <v-col cols="12" md="6">
             <div class="left">
               <h2>무엇을 도와드릴까요?</h2>
-              <strong>070-4709-1003</strong>
+              <strong>070-7807-6857</strong>
 
               <div class="time">
                 <dl>
@@ -36,7 +36,32 @@
     </div>
     <!-- section-1 -->
 
-    <div class="section-2">
+    <!-- <div class="section-2">
+      <div class="inner">
+        <v-row>
+          <v-col cols="12" md="4">
+            <v-btn text @click="$router.push('/terms/person')">
+              <label>개인정보 취급방침</label>
+              <v-icon>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-btn text @click="$router.push('/terms/service')">
+              <label>서비스 이용약관</label>
+              <v-icon>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+          <v-col cols="12" md="4">
+            <v-btn text @click="$router.push('/terms/refound')">
+              <label>서비스 보상정책</label>
+              <v-icon>mdi-arrow-right</v-icon>
+            </v-btn>
+          </v-col>
+        </v-row>
+      </div>
+    </div> -->
+
+    <div class="section-3">
       <div class="inner">
         <h2>자주묻는 질문</h2>
 
@@ -47,8 +72,17 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              주문수량을 잘못입력 했어도, 추후 검수과정에서 파악하여 추가결제
-              요청이 진행됩니다.
+              <span>주문수량을 잘못입력 했어도, 추후 검수과정에서 파악하여 추가결제 요청이 진행됩니다.</span>
+            </dd>
+          </dl>
+          <dl class="accodion_item">
+            <dt>
+              <span><b>Q</b>추가결제는 어떻게 하나요?</span>
+              <v-icon> mdi-chevron-down-circle-outline </v-icon>
+            </dt>
+            <dd>
+              <span>추가결제 시 카카오톡 알림으로 가게되며, 추가검수 품목과 추가금액 확인 후 데일리세탁 앱에서 결제하실 수 있습니다.</span>
+              
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -57,11 +91,8 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              주문 취소 버튼을 누르면 됩니다. 취소는 데일리세탁 배송 기사가
-              고객님의 물품을 수거하기 전까지만 가능하며, 배송 기사가 수거를 한
-              후 취소하고 싶다면 데일리세탁 고객센터로 문의주세요 단, 이 경우
-              수거 과정에서 배송비가 발생하였기 때문에 수거 배송비는 고객 부담이
-              됩니다.
+              <span>[나의주문] > [주문상세보기] 에서 주문을 취소할 수 있습니다.</span>
+              <span>취소는 데일리세탁 배송 기사가 고객님의 물품을 수거시작 시간 전까지만 가능하며, 배송 기사가 수거를 한 후 취소하고 싶다면 데일리세탁 고객센터로 문의주세요 단, 이 경우 수거 과정에서 배송비가 발생하였기 때문에 수거배송비는 고객 부담이 됩니다.</span>
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -70,8 +101,7 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              수거 된 세탁물은 전문가가 검수하여, 협력되어있는 세탁업체를 통해
-              세탁이 진행됩니다.
+              <span>수거된 세탁물은 전문가가 검수하여, 지역마다 협력 되어있는 세탁업체를 통해 세탁이 진행됩니다.</span>
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -80,34 +110,25 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              일반적인 세탁물의 경우 3~4일 정도 소요되며, 오염상태나 추가작업
-              여부에 따라 세탁기간이 달라질 수 있습니다. 진행 상황은 앱을 통해
-              확인하실 수 있습니다.
+              <span>물빨래의 경우 2일 ~ 3일 정도 소요.</span>
+              <span>특수세탁 혹은 드라이크리닝의 경우 2일 ~ 3일 정도 소요.</span>
+              <span>구스소재(구스다운패딩, 구스토퍼) 포함 시 최대 3일 ~ 4일 정도 소요.</span>
+              <span>운동화 세탁은 3일 ~ 7일 정도 걸리시기에 여유있게 맡겨주세요.</span>
+              <span>토,일 및 공휴일이 겹친 경우 모든품목 최대 2일 이상 소요되십니다.</span>
             </dd>
           </dl>
           <dl class="accodion_item">
             <dt>
               <span><b>Q</b>수선도 가능한가요?</span>
-              <v-icon> mdi-chevron-down-circle-outline </v-icon>
-            </dt>
-            <dd>현재 데일리세탁에서는 ‘수선’ 을 진행하고 있지 않습니다.</dd>
-          </dl>
-          <dl class="accodion_item">
-            <dt>
-              <span><b>Q</b>신발은 어떻게 세탁 되나요?</span>
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              수거 된 세탁물은 전문가가 검수하여, 협력되어있는 세탁업체를 통해
-              세탁이 진행됩니다.
+              <span>현재 데일리세탁에서는 '간단한 수선'만 진행합니다.</span>
+              <span>밑단수선/길이수선, 단추 및 지퍼수선(수선이 필요한 단추/지퍼는 동봉 요망), 뜯어짐 및 헤
+  짐 수선만 가능합니다.(그 외 통 줄임, 허리 수선 등의 수선서비스는 제공하지 않습니다.) </span>
+              <span>세탁담당자 검수 후 수선이 불가능 할 수 있습니다.</span>
+              <span>세탁과정 없이 수선 서비스만은 제공하지 않습니다.</span>
             </dd>
-          </dl>
-          <dl class="accodion_item">
-            <dt>
-              <span><b>Q</b>수선도 가능한가요?</span>
-              <v-icon> mdi-chevron-down-circle-outline </v-icon>
-            </dt>
-            <dd>현재 데일리세탁에서는 ‘수선’ 을 진행하고 있지 않습니다.</dd>
           </dl>
           <dl class="accodion_item">
             <dt>
@@ -115,8 +136,9 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              수거 된 세탁물은 전문가가 검수하여, 협력되어있는 세탁업체를 통해
-              세탁이 진행됩니다.
+              <span>배송이 시작되면 고객님께 카카오톡으로 알림이 갑니다.</span>
+              <span>(단, 교통상황에 따라 배송기사님이 순차적으로 방문하기에 일부 지연될 수 있는 점 양해부
+   탁드립니다.)</span>
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -124,14 +146,18 @@
               <span><b>Q</b>배송비를 따로 내야 하나요?</span>
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
-            <dd>세탁물 수거 및 배달팁으로 3500원을 부과하고 있습니다.</dd>
+            <dd>
+              <span>세탁물 수거 및 배송료로 3,500원 부가됩니다.</span>
+            </dd>
           </dl>
           <dl class="accodion_item">
             <dt>
               <span><b>Q</b>수거지와 배송지가 달라도 되나요?</span>
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
-            <dd>수거지와 배송지가 다른 경우 주문이 불가능합니다.</dd>
+            <dd>
+              <span>수거지와 배송지가 다른 경우는 분실의 위험으로 불가능 합니다.</span>
+            </dd>
           </dl>
           <dl class="accodion_item">
             <dt>
@@ -139,8 +165,10 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              수거 및 배송일정에 따라 기사님이 움직이지만, 일부 지연이 될 수
-              있는 점 양해부탁드립니다.
+              <span>
+                수거 및 배송일정에 따라 기사님이 움직이지만, 교통상황과 금일 물량에 따라 일부 지연이 
+  될 수 있는 점 양해부탁드립니다.
+              </span>
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -149,8 +177,10 @@
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
             <dd>
-              회원정보는 카카오톡 로그인 연계를 통하므로, 카카오톡 정보변경을
-              이용하시면 됩니다. 주소 및 등록카드 변경은 가능합니다.
+              <span>
+                회원정보는 카카오톡 로그인 연계를 통하므로, 카카오톡 정보변경을 이용하시면 됩니다. 
+  주소 및 이용카드의 변경은 가능합니다.
+              </span>
             </dd>
           </dl>
           <dl class="accodion_item">
@@ -161,7 +191,9 @@
               >
               <v-icon> mdi-chevron-down-circle-outline </v-icon>
             </dt>
-            <dd>세탁업 표준약관 제6조에 피해보상 및 손해배상을 진행합니다.</dd>
+            <dd>
+              <span>세탁업 표준약관 제6조에 피해보상 및 손해배상을 진행합니다.</span>
+            </dd>
           </dl>
         </div>
       </div>
@@ -171,6 +203,10 @@
 
 <script>
 export default {
+  name: "Customer",
+  metaInfo:{
+    title: '고객센터 | 데일리세탁'
+  },
   data() {
     return {
       boxIndex: 0,
@@ -181,30 +217,37 @@ export default {
     this.accodionFunc();
   },
   methods: {
+    pageMove(value){
+      this.$router.push(value);
+    },
     openPage(url){
       window.open(url)
     },
-    accodionFunc() {
-      const item = document.querySelectorAll(".accodion_item");
-      const defaultHt = 80;
+    accodionFunc(){
+      const items = document.querySelectorAll('.accodion_item');
+      const defaultHt = 80
+      
 
-      for (let i = 0; i <= item.length; i++) {
-        item[i].addEventListener("click", () => {
-          item[i].classList.toggle("active");
+      items.forEach(item => {
+        item.addEventListener('click',()=>{
+          item.classList.toggle('active');
 
-          if (item[i].classList.contains("active")) {
-            item[i].style.height =
-              defaultHt + item[i].querySelector("dd").clientHeight + "px";
-          } else {
-            item[i].style.height = defaultHt + "px";
+          if(item.classList.contains('active')){
+            item.style.height = item.clientHeight + item.querySelector('dd').clientHeight + 'px'
+          }else{
+            item.style.height = defaultHt + 'px'
           }
-        });
+        }, false)
+      });
 
-        window.addEventListener("resize", () => {
-          item[i].style.height = defaultHt + "px";
-          item[i].classList.remove("active");
-        });
-      }
+      window.addEventListener('resize',()=>{
+        items.forEach(item =>{
+          if(item.classList.contains('active')){
+            item.classList.remove('active')
+            item.style.height = defaultHt + 'px'
+          }
+        })
+      })
     },
   },
 };
@@ -278,7 +321,26 @@ export default {
   }
 }
 
-.section-2 {
+.section-2{
+  border-radius:30px;
+  margin-bottom:90px;
+
+  .v-btn{
+    border:1px solid #d2d2d2;
+    width:100%;
+    height:50px;
+    border-radius:5px;
+    display:flex;
+    justify-content: space-between;
+
+    .v-icon{
+      font-size:18px;
+      color:#aaa;
+    }
+  }
+}
+
+.section-3 {
   padding: 80px 50px;
   background: #f8f8f8;
   border-radius: 30px;
@@ -316,9 +378,20 @@ export default {
 
       dd {
         padding: 20px 0;
-        line-height: 1.8;
         color: #797979;
         border-top: 1px solid #e2e2e2;
+
+        span{
+          display:flex;
+          margin-bottom:8px;
+        }
+        span:before{
+          content:'·';
+          display:block;
+        }
+        span:last-child{
+          margin-bottom:0px;
+        }
       }
     }
 
@@ -372,7 +445,7 @@ export default {
       }
     }
   }
-  .section-2 {
+  .section-3 {
     padding: 90px 25px;
     border-radius: 0px;
     .list {

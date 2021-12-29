@@ -11,13 +11,13 @@
         <li v-ripple @click="$router.push('/')">
           홈으로
         </li>
-        <li v-ripple @click="$router.push('howUse')">
+        <li v-ripple @click="$router.push('/howUse')">
           이용방법
         </li>
-        <li v-ripple @click="$router.push('service')">
+        <li v-ripple @click="$router.push('/service')">
           서비스지역
         </li>
-        <li v-ripple @click="$router.push('customer')">
+        <li v-ripple @click="$router.push('/customer')">
           고객센터
         </li>
       </ul>
@@ -27,10 +27,10 @@
           <img src="@/assets/img/facebook.png">
           <span>페이스북</span>
         </div> -->
-        <div class="sns_btn" v-ripple @click="openPage('https://blog.naver.com/dailywash_op')">
+        <!-- <div class="sns_btn" v-ripple @click="openPage('https://blog.naver.com/dailywash_op')">
           <img src="@/assets/img/blog.png">
           <span>블로그</span>
-        </div>
+        </div> -->
         <div class="sns_btn" v-ripple @click="openPage('http://pf.kakao.com/_GAFDxb/chat')">
           <img src="@/assets/img/kakao.png">
           <span>카카오톡</span>
@@ -43,6 +43,7 @@
 
 <script>
 export default {
+  name:'Drawer',
   data(){
     return{
       drawer:false,
@@ -54,7 +55,8 @@ export default {
     },
     drawerHandle(value){
       this.drawer = value
-    }
+    },
+    
   },
 }
 </script>
@@ -73,6 +75,9 @@ export default {
       margin-bottom:10px;
       padding:10px; 
       border-radius:10px;
+    }
+    li:hover{
+      cursor: pointer;
     }
   }
 

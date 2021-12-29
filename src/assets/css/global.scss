@@ -80,6 +80,11 @@ ul, ol, ul li, ol li, p{
   transform:none;
 }
 
+.v-dialog{
+  box-shadow: none;
+  border-radius:0;
+}
+
 
 @media screen and(max-width:1200px) {
   .contents{

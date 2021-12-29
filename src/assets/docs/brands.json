@@ -1,0 +1,608 @@
+[
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "에르메스",
+    "file": "hermes"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "로로피아나",
+    "file": "loroPiana"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "구찌",
+    "file": "gucci"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "디올",
+    "file": "dior"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "샤넬",
+    "file": "chanel"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "프라다",
+    "file": "prada"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "몽클레어",
+    "file": "moncler"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "펜디",
+    "file": "fendi"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "버버리",
+    "file": "burberry"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "톰브라운",
+    "file": "thomBrowne"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "발리",
+    "file": "bally"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "지방시",
+    "file": "givenchy"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "미우미우",
+    "file": "miumiu"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "아페쎄",
+    "file": "apc"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "셀린느",
+    "file": "celine"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "끌로에",
+    "file": "chloe"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "랑방",
+    "file": "lanvin"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "질샌더",
+    "file": "jilSander"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "리스",
+    "file": "reiss"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "입생로랑",
+    "file": "ysl"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "미스터앤미세스",
+    "file": "mrNmrs"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "이네제마레샬",
+    "file": "ines"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "가니",
+    "file": "ganni"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "에이에스65",
+    "file": "as65"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "포르테쿠튀르",
+    "file": "forteCouture"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "노비스",
+    "file": "nobis"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "이브살로몬",
+    "file": "yvesSalomon"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "두베디카",
+    "file": "duvetica"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "맥케이지",
+    "file": "mackage"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "아비쏘",
+    "file": "avviso"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "돌체앤가바나",
+    "file": "dolce"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "에르노",
+    "file": "herno"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "쟈크뮈스",
+    "file": "jacquemus"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "알마니",
+    "file": "armani"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "릭오웬스",
+    "file": "rickOwens"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "팜엔젤스",
+    "file": "palmAngels"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "벨루티",
+    "file": "berluti"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "란스미어",
+    "file": "lansmere"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "톰포드",
+    "file": "tomFord"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "발렌시아가",
+    "file": "balenciaga"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "막스마라",
+    "file": "maxmara"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "무스너클",
+    "file": "mooseKnuckles"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "옌키옌키",
+    "file": "ienki"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "준지",
+    "file": "juunJ"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "브루넬로 쿠치넬리",
+    "file": "brunello"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "파라점퍼스",
+    "file": "parajumpers"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "메종마르지엘라",
+    "file": "maisonMargiela"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "캐나다구스",
+    "file": "canadaGoose"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "아크네스튜디오",
+    "file": "acneStudios"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "타임",
+    "file": "time"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "시스템",
+    "file": "system"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "산드로",
+    "file": "sandro"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "COS",
+    "file": "cos"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "디스퀘어드",
+    "file": "dsquared"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "마르니",
+    "file": "marni"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "폴로 퍼플라벨",
+    "file": "purpleLabel"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "스톤아일랜드",
+    "file": "stoneIsland"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "꼼데가르송",
+    "file": "commedes"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "베트멍",
+    "file": "vetements"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "오프화이트",
+    "file": "offWhite"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "비비안웨스트우드",
+    "file": "vivienne"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "겐조",
+    "file": "kenzo"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "아미",
+    "file": "ami"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "메종키츠네",
+    "file": "maisonKitsune"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "이자벨마랑",
+    "file": "isabelMarant"
+  },
+  {
+    "category": "의류",
+    "type": "준명품",
+    "name": "C.P company",
+    "file": "cpCompany"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "에르메스",
+    "file": "hermes"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "로로피아나",
+    "file": "loroPiana"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "샤넬",
+    "file": "chanel"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "구찌",
+    "file": "dior"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "루이비통",
+    "file": "gucci"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "프라다",
+    "file": "prada"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "입생로랑",
+    "file": "ysl"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "지방시",
+    "file": "givenchy"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "펜디",
+    "file": "fendi"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "메종 마르지엘라",
+    "file": "maisonMargiela"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "아페쎄",
+    "file": "apc"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "셀린느",
+    "file": "celine"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "겐조",
+    "file": "kenzo"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "버버리",
+    "file": "burberry"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "디올",
+    "file": "dior"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "톰포드",
+    "file": "tomFord"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "아크네스튜디오",
+    "file": "acneStudios"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "브루넬로 쿠치넬리",
+    "file": "brunello"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "쥬세페자노티",
+    "file": "Giuseppe"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "오프화이트",
+    "file": "offWhite"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "톰브라운",
+    "file": "thomBrowne"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "발리",
+    "file": "bally"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "릭오웬스",
+    "file": "rickOwens"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "베트멍",
+    "file": "vetements"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "끌로에",
+    "file": "chloe"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "마르니",
+    "file": "marni"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "지미추",
+    "file": "jimmyChoo"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "발렌시아가",
+    "file": "balenciaga"
+  },
+  {
+    "category": "신발류",
+    "type": "명품",
+    "name": "돌체앤가바나",
+    "file": "dolce"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "조던",
+    "file": "jordan"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "나이키 콜라보/한정판",
+    "file": "nike"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "아디다스 콜라보/한정판",
+    "file": "adidas"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "알렉산더 맥퀸",
+    "file": "alexander"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "골든구스",
+    "file": "goldenGoose"
+  },
+  {
+    "category": "신발류",
+    "type": "준명품",
+    "name": "발렌티노",
+    "file": "valentino"
+  }
+]

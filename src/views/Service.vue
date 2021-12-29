@@ -95,12 +95,29 @@
                   <img src="/img/shop02.png" />
                 </div>
                 <dl>
-                  <dt>워시앤클린(광안점)</dt>
+                  <dt>자탁소(부산대연점)</dt>
                   <dd>
-                    <span class="ceo">대표 차경진</span>
-                    <span class="phone">010-7179-6857</span>
-                    <span class="address">부산광역시 수영구 수영로 514-1, 1층 상가</span>
-                    <span class="company_num">사업자번호 133-13-68654</span>
+                    <span class="ceo">대표 김지예</span>
+                    <span class="phone">010-8504-8966</span>
+                    <span class="address">부산 남구 수영로208번길 43 1층 자탁소</span>
+                    <span class="company_num">사업자번호 741-37-00655</span>
+                  </dd>
+                </dl>
+              </div>
+            </v-col>
+
+            <v-col cols="12" md="4">
+              <div class="shop_item">
+                <div class="shop_img">
+                  <img src="/img/shop03.png" />
+                </div>
+                <dl>
+                  <dt>월드크리닝(덕포지사)</dt>
+                  <dd>
+                    <span class="ceo">대표 이현정</span>
+                    <span class="phone">051-302-6002</span>
+                    <span class="address">부산광역시 사상구 덕상로 1 (덕포동) 월드크리닝 덕포지사</span>
+                    <span class="company_num">사업자번호 609-15-18918</span>
                   </dd>
                 </dl>
               </div>
@@ -119,6 +136,10 @@
 
 <script>
 export default {
+  name:'Service',
+  metaInfo:{
+    title: '서비스지역 | 데일리세탁'
+  },
   data() {
     return {
       colors: [],

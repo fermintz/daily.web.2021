@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Drawer ref="drawer"/>
-    <Header @update="drawer"/>
+    <TopHeader @update="drawer"/>
 
     <v-main>
       <router-view />
@@ -12,14 +12,14 @@
 </template>
 
 <script>
-import Header from '@/components/header'
+import TopHeader from '@/components/header'
 import Footer from '@/components/footer'
 import Drawer from '@/components/drawer'
 
 export default {
   name: "App",
   components:{
-    Header, Footer, Drawer
+    TopHeader, Footer, Drawer
   },
   data: () => ({
     //

@@ -13,6 +13,10 @@
 import docs from "@/assets/docs/agree.js";
 
 export default {
+  name:'ReviewTerms',
+  metaInfo:{
+    title: '이용정보 | 데일리세탁'
+  },
   data() {
     return {
       title: "",

@@ -1,7 +1,5 @@
 <template>
   <div class="header">
-    <Drawer ref="drawer"/>
-
     <div class="inner d-flex justify-space-between align-center">
       <div class="logo" @click="pageMove('/')">
         <img src="@/assets/img/logo.png">
@@ -24,9 +22,9 @@
           <!-- <div class="sns_btn" @click="openPage('http://pf.kakao.com/_GAFDxb/chat')">
             <img src="@/assets/img/facebook.png"/>
           </div> -->
-          <div class="sns_btn" @click="openPage('https://blog.naver.com/dailywash_op')">
+          <!-- <div class="sns_btn" @click="openPage('https://blog.naver.com/dailywash_op')">
             <img src="@/assets/img/blog.png"/>
-          </div>
+          </div> -->
           <div class="sns_btn"  @click="openPage('http://pf.kakao.com/_GAFDxb/chat')">
             <img src="@/assets/img/kakao.png"/>
           </div>
@@ -52,10 +50,11 @@
 
 <script>
 export default {
+  name:'TopHeader',
   mounted(){
     addEventListener('scroll',()=>{
       this.stickyOn()
-    })
+    }, false)
     
   },
   methods:{
@@ -63,7 +62,7 @@ export default {
       window.open(url)
     },
     pageMove(value){
-      this.$router.push(value);
+      this.$router.push(value).catch(()=>{});
     },
     stickyOn(){
       const screen = window.scrollY
@@ -79,7 +78,7 @@ export default {
       this.$emit('update', value)
     },
     scrollTop(){
-      console.log(window.scrollTo({top:0, behavior:'smooth'}))
+      window.scrollTo({top:0, behavior:'smooth'})
     }
   },
 }

@@ -139,7 +139,7 @@
             <v-col cols="12"  md="6" class="sa sa-up">
               <div class="item">
                 <dl>
-                  <dt>전문 세탁 이용 서비스</dt>
+                  <dt>드라이&물세탁</dt>
                   <dd>데일리세탁의 꼼꼼한 절차를 선정된 10년 이상의 경력을 보유한 전문가가 고퀄리티의 세탁 서비스를 완성합니다.</dd>
                 </dl>
                 <div class="image_box">
@@ -151,8 +151,8 @@
               <div class="item">
                 
                 <dl>
-                  <dt>셀프빨래방 대행 서비스</dt>
-                  <dd>셀프빨래방에서 기다리시는 시간을 줄일 수 있도록 데일리세탁에서 엄선된 셀프빨래방 대행 서비스를 제공합니다.</dd>
+                  <dt>침구류 물세탁</dt>
+                  <dd>무거운 침구류를 이제 대시 세탁해드립니다. 선별된 코인세탁소와 협업을 통해 깨끗하게 세탁 후 배송해드립니다.</dd>
                 </dl>
                 <div class="image_box">
                   <img src="@/assets/img/main_03.png">
@@ -206,6 +206,10 @@
 
 export default {
   name: "Home",
+  metaInfo:{
+    title: '데일리세탁'
+  },
+
   data(){
     return{}
   },
