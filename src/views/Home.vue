@@ -111,7 +111,10 @@
           <div class="phone sa sa-rotate" >
             <div class="phone_top"></div>
             <div class="phone_inner">
-              <img src="@/assets/img/daily_video.gif"/>
+              <video autoplay muted loop peload="metadata">
+                <source src="/video/daily_2.mp4" type="video/mp4" >
+                해당 브라우저는 video를 재생할 수 없습니다
+              </video>
             </div>
           </div>
 
@@ -188,7 +191,7 @@
       <div class="section section-5">
         <div class="inner">
           <div class="sec_title sa sa-up">          
-            <strong>세탁으로 부터 찾는 나의 시간, <br/>이제 <b>데일리세탁</b>에 맏기세요</strong>
+            <strong>세탁으로 부터 찾는 나의 시간, <br/>이제 <b>데일리세탁</b>에 맡기세요</strong>
           </div>
           <div class="sec_cont">
             <div class="sec-5-img">
@@ -536,8 +539,7 @@ export default {
         border-radius:35px;
         z-index:1;
  
-        img{
-          display:block;
+        video{
           width:100%;
         }
       }
@@ -624,7 +626,6 @@ export default {
     display:flex;
     align-items: center;
     justify-content: center;
-    border-radius:30px;
     height:100%;
     overflow:hidden;
     img{
@@ -765,4 +766,18 @@ export default {
   }
 
 }
+
+@media screen and(max-width:720px) {
+  .section-5{
+    .sec-5-img{
+      img{
+        width:200%;
+      }
+      &:after{
+        padding-bottom:100%;
+      }
+    }
+  }
+}
+
 </style>

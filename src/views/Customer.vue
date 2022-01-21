@@ -6,7 +6,7 @@
           <v-col cols="12" md="6">
             <div class="left">
               <h2>무엇을 도와드릴까요?</h2>
-              <strong>070-7807-6857</strong>
+              <strong>070-4709-1003</strong>
 
               <div class="time">
                 <dl>
@@ -14,11 +14,11 @@
                   <dd>10:00 ~ 18:00</dd>
                 </dl>
                 <dl>
-                  <dt>점심시간</dt>
+                  <dt>점심</dt>
                   <dd>12:30 ~ 13:30</dd>
                 </dl>
                 <dl>
-                  <dd>주말, 공휴일 휴무</dd>
+                  <dd>주말, 공휴일 제외</dd>
                 </dl>
               </div>
 

@@ -325,7 +325,6 @@
             진행됩니다.<br />
             평균 영업일 2~4일정도 소요되오니 조금만 참고 기다려주세요!
           </p>
-          test
         </div>
 
         <div class="sec-6-image sa">
@@ -358,20 +357,20 @@
       <div class="inner">
         <v-row>
           <v-col cols="12" md="7">
-            <div class="customer-info">~~
+            <div class="customer-info">
               <div class="text">
                 이용방법을 잘 모르시겠다면,<br />언제든 연락주세요
               </div>
               <div class="bottom">
                 <dl>
                   <dt>고객센터</dt>
-                  <dd>070-7807-6857</dd>
+                  <dd>070-4709-1003</dd>
                 </dl>
                 <div class="divider-v"></div>
                 <div class="time">
-                  <span>운영 10:00 ~ 18:30</span>
+                  <span>평일 10:00 ~ 18:00</span>
                   <span>점심 12:30 ~ 13:30</span>
-                  <span>토요일, 공휴일 휴무</span>
+                  <span>주말, 공휴일 제외</span>
                 </div>
               </div>
             </div>
@@ -774,7 +773,6 @@ export default {
       height: 100%;
       justify-content: center;
       align-items: center;
-      border-radius: 15px;
       margin-top: 50px;
       overflow: hidden;
 
@@ -1012,6 +1010,21 @@ export default {
         background: #f8f2f4;
         border-radius: 15px;
       }
+    }
+  }
+
+  @media screen and(max-width:720px) {
+    .section-6 {
+      .sec-6-image {
+        img {
+          width:150%;
+        }
+
+        &:after{
+          padding-bottom:100%;
+        }
+      }
+
     }
   }
 }
