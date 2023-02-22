@@ -289,6 +289,18 @@
   },
   {
     "category": "의류",
+    "type": "명품",
+    "name": "우영미",
+    "file": "wooyoungmi"
+  },
+  {
+    "category": "의류",
+    "type": "명품",
+    "name": "솔리드옴므",
+    "file": "solid"
+  },
+  {
+    "category": "의류",
     "type": "준명품",
     "name": "아크네스튜디오",
     "file": "acneStudios"
@@ -395,6 +407,7 @@
     "name": "C.P company",
     "file": "cpCompany"
   },
+  
   {
     "category": "신발류",
     "type": "명품",

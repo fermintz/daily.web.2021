@@ -4,6 +4,7 @@
     fixed
     right    
     temporary
+    touchless
     style="z-index:99;"
   >
     <div class="drawer_in">
@@ -16,6 +17,9 @@
         </li>
         <li v-ripple @click="$router.push('/service')">
           서비스지역
+        </li>
+        <li v-ripple @click="$router.push('/price-table')">
+          세탁가격표
         </li>
         <li v-ripple @click="$router.push('/customer')">
           고객센터

@@ -1,8 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import HowUse from "../views/HowUse.vue"
-import Customer from "../views/Customer.vue"
+import Price from "../views/Price.vue"
 import Service from "../views/Service"
 import Terms from "../views/terms"
 import NotFound from "../views/notFound"
@@ -21,7 +20,7 @@ const routes = [
   {
     path: "/howUse",
     name: "howUse",
-    component: HowUse,
+    component: ()=>import('@/views/howUse/howUse.vue'),
   },
   {
     path: "/service",
@@ -31,7 +30,12 @@ const routes = [
   {
     path: "/customer",
     name: "customer",
-    component: Customer,
+    component: ()=> import('@/views/customer/customer.vue'),
+  },
+  {
+    path: "/price-table",
+    name: "price-table",
+    component: Price,
   },
   {
     path: "/caution/:type",

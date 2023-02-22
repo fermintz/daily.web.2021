@@ -5,13 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepublish": "vue-cli-service build",
+    "publish": "scp -r .\\dist\\* root@dailywash.co.kr:/web/www.dailywash.co.kr"
   },
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
     "lodash": "^4.17.21",
     "vue": "^2.6.11",
+    "vue-cookies": "^1.7.4",
     "vue-meta": "^2.4.0",
     "vue-router": "^3.2.0",
     "vuetify": "^2.4.0",

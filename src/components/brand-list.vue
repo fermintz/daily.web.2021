@@ -7,7 +7,7 @@
           cols="4"
           sm="3"
           md="2"
-          lg="1"
+          lg="2"
           v-for="(item, index) in datas"
           :key="index"
         >
@@ -75,7 +75,7 @@ export default {
     label {
       display: block;
       margin-top: 10px;
-      font-size: 12px;
+      font-size: 14px;
       text-align: center;
     }
   }

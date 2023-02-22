@@ -14,6 +14,9 @@
           <li @click="pageMove('/service')">
             서비스지역
           </li>
+          <li @click="pageMove('/price-table')">
+            세탁가격표
+          </li>
           <li @click="pageMove('/customer')">
             고객센터
           </li>
@@ -165,7 +168,7 @@ export default {
 .header.active{
   position: fixed;
   background:#fff;
-  border-bottom:1px solid #e2e2e2;
+
   top:0px;
   width:100%;
   .inner{
@@ -200,6 +203,7 @@ export default {
     .gnb{
     display:none;
     }
+    
     .mobile_btn{
       display:block;
       margin-right:10px;
@@ -207,9 +211,8 @@ export default {
   }
 
   .header.active{
-    background:rgba(255,255,255,0.8);
-    backdrop-filter: blur(5px);
-    transition:background 1s ease;
+    background:rgba(255,255,255,1);
+    transition:background 0.5s ease;
     .inner{
       height:60px;
     }

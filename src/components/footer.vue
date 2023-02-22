@@ -8,10 +8,10 @@
         </div>
         <div class="company">
           <ul>
-            <li>주식회사 페이오티 | 대표 차경진 </li>
-            <li>통신판매업 신고번호 2021-부산강서구-0877 | 사업자등록번호 599-81-00659</li>
+            <li>더페이세탁 | 대표 김주현 </li>
+            <li>사업자등록번호 660-01-02597</li>
             <li>고객센터 070-4709-1003 | FAX 0504-433-6857 | Email cs@dailywash.co.kr</li>
-            <li>부산광역시 강서구 대저 1동 2304-3 3층 페이오티</li>
+            <li>부산광역시 부산진구 백양순환로 21(당감동)</li>
           </ul>
 
           <div class="copy">
@@ -22,7 +22,7 @@
       
       <div class="btns">
         <v-btn text @click="$router.push('/terms/person')">개인정보 취급방침</v-btn>
-        <v-btn text @click="$router.push('/orderAlert/alert01')">주문시 주의사항</v-btn>
+        <!-- <v-btn text @click="$router.push('/orderAlert/alert01')">주문시 주의사항</v-btn> -->
         <v-btn text @click="$router.push('/terms/service')">서비스 이용약관</v-btn>
         <v-btn text @click="$router.push('/terms/refound')">서비스 보상정책</v-btn>
       </div>

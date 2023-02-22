@@ -25,7 +25,7 @@
             <div class="sec_title">
               <span class="sa sa-up">STEP 01</span>
               <strong class="sa sa-up" data-sa-delay="200"
-                >세탁서비스<br />선택하기</strong
+                >데일리세탁<br />세탁서비스</strong
               >
             </div>
           </v-col>
@@ -33,25 +33,25 @@
             <v-row class="second_row">
               <v-col cols="12" md="6" class="sa sa-right">
                 <div class="sec_image">
-                  <img src="@/assets/img/main_03.png" />
+                  <img src="@/assets/img/main_02.png" />
                 </div>
                 <dl>
-                  <dt>침구류 물세탁 대행서비스</dt>
+                  <dt>드라이&물세탁</dt>
                   <dd>
-                    시간에 방해받지 않고 무거움 세탁물을 다시 들고올 필요없이
-                    데일리세탁이 대신 처리해드립니다
+                    데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들이
+                    깨끗한 세탁을 완성합니다
                   </dd>
                 </dl>
               </v-col>
               <v-col cols="12" md="6" class="sa sa-right" data-sa-delay="400">
                 <div class="sec_image">
-                  <img src="@/assets/img/main_02.png" />
+                  <img src="@/assets/img/main_03.png" />
                 </div>
                 <dl>
-                  <dt>드라이&물세탁 전문세탁소</dt>
+                  <dt>침구류 물세탁</dt>
                   <dd>
-                    데일리세탁이 PICK한 빨래경력 10년이상의 세탁전문가들이
-                    깨끗한 세탁을 완성합니다
+                    시간에 방해받지 않고 무거움 세탁물을 다시 들고올 필요없이
+                    데일리세탁이 대신 처리해드립니다
                   </dd>
                 </dl>
               </v-col>
@@ -106,7 +106,7 @@
         </div>
       </div>
 
-      <div class="inner">
+      <!-- <div class="inner">
         <div class="repair">
           <h5>
             ※ 현재 데일리세탁에서는 <b>'간단한 수선'</b>만 진행합니다.
@@ -124,7 +124,7 @@
             <li>- 세탁과정 없이 수선 서비스만은 제공하지 않습니다.</li>
           </ul>
         </div>
-      </div>
+      </div> -->
     </div>
 
     <div class="section section-3">
@@ -323,7 +323,7 @@
           <p class="sa sa-up" data-sa-delay="400">
             고객님의 세탁물은 수거, 업체에 접수, 세탁, 배송의 과정으로
             진행됩니다.<br />
-            평균 영업일 2~4일정도 소요되오니 조금만 참고 기다려주세요!
+            평균 영업일 4~5일정도 소요되오니 조금만 참고 기다려주세요!
           </p>
         </div>
 
@@ -333,14 +333,6 @@
 
         <div class="guide">
           <ul>
-            <li>
-              셀프빨래방 대행 서비스의 경우 접수 이 후 1~3 영업일 정도
-              소요됩니다.
-            </li>
-            <li>
-              전문 세탁소 이용 서비스의 경우 접수 이 후 2~4 영업일정도
-              소요됩니다.
-            </li>
             <li>
               세탁물의 재질이나 오염 상태에 따라 소요 기간이 증가할 수 있습니다.
             </li>

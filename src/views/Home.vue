@@ -8,7 +8,7 @@
                 <span class="text1 sa sa-up" data-sa-delay="0" data-sa-margin="0">DAILY WASH</span>
                 <span class="text2 sa sa-up" data-sa-delay="200" data-sa-margin="0">세탁을 간편하게</span>
                 <span class="text2 sa sa-up" data-sa-delay="400" data-sa-margin="0">모두를 위한 모바일세탁소</span>
-                <span class="text3 sa sa-up" data-sa-delay="600" data-sa-margin="0">데일리세탁 앱으로<br>간편하게 세탁을 예약하세요</span>
+                <span class="text3 sa sa-up" data-sa-delay="600" data-sa-margin="0">데일리세탁 앱으로 간편하게<br> 세탁을 예약하세요</span>
               </div>
               <div class="download">
                 <div class="btn sa sa-up" v-ripple data-sa-delay="800" data-sa-margin="0" @click="openPage('https://apps.apple.com/kr/app/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%9B%8C%EC%8B%9C/id1495137616')">
@@ -46,6 +46,54 @@
         </div>
       </div>
 
+      <div class="mobile-visual">
+        <div class="visual-title">
+          <span class="text2 sa sa-up" data-sa-delay="200" data-sa-margin="0">세탁을 간편하게</span>
+          <span class="text2 sa sa-up" data-sa-delay="300" data-sa-margin="0">모두를 위한 모바일세탁소</span>
+          <span class="text3 sa sa-up" data-sa-delay="400" data-sa-margin="0">데일리세탁 앱으로 간편하게 세탁을 예약하세요</span>
+        </div>
+
+        <div class="store-btns sa sa-up" data-sa-delay="600" data-sa-margin="0">
+          <div class="store" @click="openPage('https://apps.apple.com/kr/app/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%9B%8C%EC%8B%9C/id1495137616')">
+            <v-icon>mdi-apple</v-icon>
+            <strong>Apple store</strong>
+          </div>
+          <div class="store" @click="openPage('https://play.google.com/store/apps/details?id=kr.co.dailywash')">
+            <v-icon>mdi-google-play</v-icon>
+            <strong>Play store</strong>
+          </div>
+        </div>
+
+        <div class="slide sa sa-up"  data-sa-margin="0" data-sa-delay="800">
+          <!-- <div class="item">
+            <a @click="onClickgogo">
+              <img src="/img/event03.png">
+            </a>
+          </div> -->
+          <div class="item">
+            <a @click="onClickgogo">
+              <img src="/img/event02.png">
+            </a>
+          </div>
+          <div class="item">
+            <a @click="onClickgogo">
+              <img src="/img/event01.png">
+            </a>
+          </div>
+        </div>
+
+        <div class="visual-bg"></div>
+
+        
+
+        <div class="bottom-btns">
+          <div @click="$router.push('price-table')" class="price">
+            <label>데일리세탁 가격확인하기</label>
+            <v-icon>mdi-arrow-right</v-icon>
+          </div>
+        </div>
+      </div>
+
       <div class="section section-2">
         <div class="inner">
           <div class="sec_title sa sa-up" data-sa-margin="0">
@@ -57,6 +105,9 @@
             <v-row>
               <v-col cols="12" md="4" class="sa sa-up" data-sa-delay="200" data-sa-margin="0">
                 <div class="item">
+                  <div class="image">
+                    <img src="/img/step01.png" />
+                  </div>
                   <div class="line">
                     <div class="bar sa sa-left-bar"  data-sa-delay="400"  data-sa-margin="0"/>
                   </div>
@@ -71,20 +122,26 @@
               </v-col>
               <v-col cols="12" md="4" class="sa sa-up" data-sa-delay="400"  data-sa-margin="0">
                 <div class="item">
+                  <div class="image">
+                    <img src="/img/step02.png" />
+                  </div>
                   <div class="line">
                     <div class="bar sa sa-left-bar" data-sa-delay="800"  data-sa-margin="0"/>
                   </div>
                   <dl>
                     <dt>
-                      <strong>세탁</strong>
+                      <strong>검수/세탁</strong>
                       <span>2</span>
                     </dt>
-                    <dd>데일리세탁소에서 선정한 최고의 파트너 세탁소에서 세탁을 진행합니다</dd>
+                    <dd>데일리세탁소에서 꼼꼼한 검수와 함께 세탁이 진행됩니다.</dd>
                   </dl>
                 </div>
               </v-col>
               <v-col cols="12" md="4" class="sa sa-up" data-sa-delay="600"  data-sa-margin="0">
                 <div class="item">
+                  <div class="image">
+                    <img src="/img/step03.png" />
+                  </div>
                   <div class="line">
                     <div class="bar sa sa-left-bar"  data-sa-delay="1200"  data-sa-margin="0"/>
                   </div>
@@ -109,9 +166,8 @@
         </div>
         <div class="sec_cont">
           <div class="phone sa sa-rotate" >
-            <div class="phone_top"></div>
             <div class="phone_inner">
-              <video autoplay muted loop peload="metadata">
+              <video autoplay loop muted webkit-playinline playinline>
                 <source src="/video/daily_2.mp4" type="video/mp4" >
                 해당 브라우저는 video를 재생할 수 없습니다
               </video>
@@ -155,7 +211,7 @@
                 
                 <dl>
                   <dt>침구류 물세탁</dt>
-                  <dd>무거운 침구류를 이제 대시 세탁해드립니다. 선별된 코인세탁소와 협업을 통해 깨끗하게 세탁 후 배송해드립니다.</dd>
+                  <dd>무거운 침구류를 이제 대신 세탁해드립니다. 깨끗하게 세탁 후 배송해드립니다.</dd>
                 </dl>
                 <div class="image_box">
                   <img src="@/assets/img/main_03.png">
@@ -201,29 +257,52 @@
         </div>
         
       </div>
+
+      <!-- <MainPopup ref="mainPopup" /> -->
   </div>
 </template>
 
 <script>
-
+// import MainPopup from "@/components/modal/mainPopup.vue"
 
 export default {
   name: "Home",
+  components:{
+    // MainPopup,
+  },
   metaInfo:{
     title: '데일리세탁'
   },
 
-  data(){
-    return{}
-  },
   mounted(){
     this.saFunc();
     window.addEventListener('scroll',this.saFunc)
   },
   methods:{
+
+    onClickgogo() {
+      var userAgent = navigator.userAgent;
+
+      if (userAgent.match(".*Android.*")) {
+        // alert("android");
+        // location.href = "dailywash://action";
+        location.href = "Intent://action#Intent;scheme=dailywash;package=kr.co.dailywash;end";
+      } else if (
+        userAgent.match(".*iPhone.*") ||
+        userAgent.match(".*iPad.*")
+      ) {
+        // alert("ios");
+        setTimeout(function () {
+          
+          location.href = 'https://apps.apple.com/kr/app/%EB%8D%B0%EC%9D%BC%EB%A6%AC%EC%84%B8%ED%83%81/id1495137616';
+        }, 250);
+        location.href = "dailywash://";
+      }
+    },
     openPage(url){
       window.open(url)
     },
+
     saFunc(){
       const saDefaultMargin = 300;
       let saTriggerMargin = 0;
@@ -260,6 +339,185 @@ export default {
 
 <style lang="scss" scoped>
 
+.home{
+  overflow:hidden;
+}
+.mobile-visual{
+  margin-top:80px;
+  display:none;
+
+  .visual-title{    
+    position: relative;
+    z-index:2; 
+    padding:0 20px;
+    span{
+      display:block;
+    }
+    span.text2{
+      font-size:28px;
+      line-height:1.2;
+      font-weight:300;
+    }
+    span.text3{
+      font-size:14px;
+      margin-top:15px;
+      color:#888;
+    }
+  }
+
+  .download{
+    position: relative;
+    z-index:2;
+    padding:0 20px;
+    margin-top:20px;
+    display:flex;
+
+    .btn{
+      display:flex;
+      align-items: center;
+      background:#191919;
+      height:50px;
+      border-radius:10px;
+      margin-right:10px;
+      padding:0 30px 0 5px;
+
+      .icon{
+        display:Flex;
+        align-items: center;
+        justify-content: center;
+        width:40px;
+        height:40px;
+        align-self: center;
+        margin-right:10px;
+        .v-icon{
+          color:#fff;
+        }
+      }
+      .label{
+        text-align:left;
+        strong{
+          font-size:12px;
+          font-family:'Roboto';
+          display:block;
+          color:#fff;
+          font-weight:500;
+        }
+        span{
+          display:block;
+          font-size:11px;
+          color:#999;
+        }
+      }
+    }
+    .btn:last-child{
+      margin-right:0px;
+    }
+    .btn:hover{
+      cursor: pointer;
+    }
+  }
+
+  .slide{
+    position: relative;
+    z-index:2;
+    display:flex;
+    overflow-x:auto;
+    padding-left:20px;
+    padding:40px 0 40px 20px;
+
+    &::-webkit-scrollbar{
+      display:none;
+    }
+
+    .item{
+      display:block;
+      width:250px;
+      background:#f2f2f2;
+      flex:none;
+      border-radius:30px;
+      overflow:hidden;
+      margin-right:15px;
+      box-shadow: 5px 5px 20px rgba(0,0,0,0.1);
+
+      img{
+        width:100%;
+        display:block;
+      }
+    }
+    .item:nth-child(2){
+      background:#e2e2e2;
+    }
+  }
+
+  .visual-bg{
+    position: absolute;
+    top:0px;
+    width:100%;
+    height:50vh;
+    z-index:1;
+    background:#f2f2f2;
+  }
+
+  .store-btns{
+    margin-top:20px;
+    position: relative;
+    z-index:2;
+    display:flex;
+    padding:0 20px;
+
+    .store{
+      display:flex;
+      height:40px;
+      align-items: center;
+      background:#292929;
+      border-radius:20px;
+      margin-right:10px;
+      padding:0 15px;
+
+      &:last-child{
+        margin-right:0
+      }
+
+      .v-icon{
+        font-size:20px;
+        display:block;
+        color:#8a8a8a;
+        margin-bottom:5px;
+      }
+      strong{
+        display:block;
+        font-size:14px;
+        color:#fff;
+        margin-left:5px;
+      }
+    }
+  }
+
+  .bottom-btns{
+    display:flex;
+    justify-content: center;
+    padding:0 20px;
+
+    .price{
+      width:70%;
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+      letter-spacing: 0;
+      border:2px solid #292929;
+      padding:0 20px;
+      height:50px;
+      border-radius:25px;
+
+      label{
+        font-weight:500;
+      }
+      .v-icon{
+        font-size:20px
+      }
+    }
+  }
+}
 .main_visual.section{
   margin-top:50px;
 
@@ -452,6 +710,15 @@ export default {
       padding:50px;
     }
     .item{
+      .image{
+        border-radius:10px;
+        overflow:hidden;
+        margin-bottom:30px;
+        img{
+          display:block;
+          width:100%;
+        }
+      }
       .line{
         height:6px;
         background:#e2e2e2;
@@ -777,6 +1044,15 @@ export default {
         padding-bottom:100%;
       }
     }
+  }
+}
+
+@media screen and(max-width:520px){
+  .main_visual.section{
+    display:none;
+  }
+  .mobile-visual{
+    display:block;
   }
 }
 
